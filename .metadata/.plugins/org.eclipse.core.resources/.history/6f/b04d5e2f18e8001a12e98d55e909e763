@@ -1,0 +1,27 @@
+package com.vn;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("hello");
+		int a = 0;
+		int b = 0;
+		String c = "+";
+		Main main = new Main();
+		int result = main.calculator(a, b, c);
+  
+	}
+
+	private int calculator(int a, int b, String c) {
+		// TODO Auto-generated method stub
+		switch (c) {
+		case "+":
+			return a + b;
+		case "-":
+			return a - b;
+		case "*":
+			return a * b;
+		default:
+			return a / b;
+		}
+	}
+}

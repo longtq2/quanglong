@@ -1,0 +1,22 @@
+package com.vn.controler;
+
+public class Calculator {
+	private float a;
+	private float b;
+	private String c;
+	public int calculator() {
+		// TODO Auto-generated method stub
+		switch (c) {
+		case "+":
+			return a + b;
+		case "-":
+			return a - b;
+		case "*":
+			return a * b;
+		default:
+			return a / b;
+		}
+	}
+
+	
+}

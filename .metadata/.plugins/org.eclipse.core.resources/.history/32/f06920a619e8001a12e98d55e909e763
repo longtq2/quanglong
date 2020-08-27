@@ -1,0 +1,24 @@
+package com.vn;
+
+import java.util.Scanner;
+
+import com.vn.controler.Calculator;
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("hello");
+		@SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
+		
+		Calculator calculator 
+		System.out.println("nhap so a:");
+		int a = scanner.nextInt();
+		int b = 1;
+		Main main = new Main();
+		int result = main.calculator(a, b, "+");
+		System.out.println(result);
+  
+	}
+
+
+}
