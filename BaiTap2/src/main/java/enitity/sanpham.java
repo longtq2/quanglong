@@ -5,7 +5,7 @@ public class sanpham {
 	private int id;
 	private String iddanhmucsanpham;
 	private String tensanpham;
-	private int giatien;
+	private double giatien;
 	private String hinhsanpham;
 	
 	public int getId() {
@@ -26,10 +26,10 @@ public class sanpham {
 	public void setTensanpham(String tensanpham) {
 		this.tensanpham = tensanpham;
 	}
-	public int getGiatien() {
+	public double getGiatien() {
 		return giatien;
 	}
-	public void setGiatien(int giatien) {
+	public void setGiatien(double giatien) {
 		this.giatien = giatien;
 	}
 	public String getHinhsanpham() {
